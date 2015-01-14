@@ -48,6 +48,11 @@
 @property (readwrite) BOOL hideProgressIcons;
 
 /**
+ * Whether or not the 
+ */
+@property (nonatomic, assign) BOOL isSpinning;
+
+/**
  * Make the background layer to spin around its center. This should be called in the main thread.
  */
 - (void) startSpinProgressBackgroundLayer;
