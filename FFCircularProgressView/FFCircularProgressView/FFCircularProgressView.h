@@ -48,9 +48,11 @@
 @property (readwrite) BOOL hideProgressIcons;
 
 /**
- * Whether or not the 
+ * Whether or not the thing
  */
 @property (nonatomic, assign) BOOL isSpinning;
+
+- (void)setTintColor:(UIColor *)tintColor
 
 /**
  * Make the background layer to spin around its center. This should be called in the main thread.
