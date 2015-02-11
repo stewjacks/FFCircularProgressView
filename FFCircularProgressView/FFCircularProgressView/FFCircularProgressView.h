@@ -52,7 +52,7 @@
  */
 @property (nonatomic, assign) BOOL isSpinning;
 
-- (void)setTintColor:(UIColor *)tintColor
+- (void)setTintColor:(UIColor *)tintColor;
 
 /**
  * Make the background layer to spin around its center. This should be called in the main thread.
